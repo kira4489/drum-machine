@@ -14,7 +14,8 @@ class Drum extends Component {
     }
   };
   componentDidMount() {
-    document.addEventListener("keydown", this.handleKeyDown);
+    document.addEventListener('keydown', this.handleKeydown)
+    window.focus()
   }
   componentWillMount() {
     document.removeEventListener("keydown", this.handleKeyDown);
