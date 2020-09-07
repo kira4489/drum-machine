@@ -47,5 +47,6 @@
 
 .drum-pad{
   padding: 20px;
+  background-color: green;
   border: 1px solid black;
 }
