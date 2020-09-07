@@ -20,5 +20,10 @@ const drumAudio = [
     keyboard: "Screen",
     url: "http://www.waveevents.com/MyFilez/wavs/variety/scream2.wav",
   },
+  {
+    id: "D",
+    keyboard: "Screen",
+    url: "http://www.waveevents.com/MyFilez/wavs/variety/scream2.wav",
+  },
 ];
 export default drumAudio;
