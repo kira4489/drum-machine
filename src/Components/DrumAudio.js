@@ -1,7 +1,6 @@
 const drumAudio = [
   {
     keyCode: 81,
-    keyTrigger: "Q",
     id: "Q",
     url: "http://www.waveevents.com/MyFilez/wavs/variety/scream2.wav",
   },

@@ -7,15 +7,15 @@ class Drum extends Component {
     this.props.handleText(this.props.id);
   };
   handleKeyDown = (event) => {
-    if (event.keycode === this.props.id.charCodeAt()) {
+    if (event.key === this.props.id.toLowerCase()) {
       this.audio.play();
       this.audio.currentTime = 0;
       this.props.handleText(this.props.KeyBoard);
     }
   };
   componentDidMount() {
-    document.addEventListener('keydown', this.handleKeydown)
-    window.focus()
+    document.addEventListener("keydown", this.handleKeyDown);
+    window.focus();
   }
   componentWillMount() {
     document.removeEventListener("keydown", this.handleKeyDown);
