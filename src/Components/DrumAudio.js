@@ -10,7 +10,7 @@ const drumAudio = [
     url: "https://s3.amazonaws.com/freecodecamp/drums/Heater-2.mp3",
   },
   {
-    id: "M",
+    id: "E",
     keyboard: "Screen",
     url: "http://www.waveevents.com/MyFilez/wavs/variety/scream2.wav",
   },
