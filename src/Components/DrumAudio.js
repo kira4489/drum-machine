@@ -15,7 +15,7 @@ const drumAudio = [
     url: "http://www.waveevents.com/MyFilez/wavs/variety/scream2.wav",
   },
   {
-    id: "A",
+    id: "B",
     keyboard: "Screen",
     url: "http://www.waveevents.com/MyFilez/wavs/variety/scream2.wav",
   },
