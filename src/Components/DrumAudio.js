@@ -17,12 +17,17 @@ const drumAudio = [
   {
     id: "B",
     keyboard: "Screen",
-    url: "http://www.waveevents.com/MyFilez/wavs/variety/scream2.wav",
+    url: "https://s3.amazonaws.com/freecodecamp/drums/Heater-4_1.mp3",
   },
   {
     id: "D",
     keyboard: "Screen",
-    url: "http://www.waveevents.com/MyFilez/wavs/variety/scream2.wav",
+    url: "https://s3.amazonaws.com/freecodecamp/drums/Heater-6.mp3",
+  },
+  {
+    id: "V",
+    keyboard: "Screen",
+    url: "https://s3.amazonaws.com/freecodecamp/drums/Cev_H2.mp3",
   },
 ];
 export default drumAudio;
