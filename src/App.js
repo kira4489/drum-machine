@@ -6,6 +6,7 @@ export default class App extends Component {
   render() {
     return (
     <>
+    <h1>Drum Machine</h1>
       <DrumMachine/>
     </>
   );
