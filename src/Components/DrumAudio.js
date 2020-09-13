@@ -29,5 +29,15 @@ const drumAudio = [
     keyboard: "Screen",
     url: "https://s3.amazonaws.com/freecodecamp/drums/Cev_H2.mp3",
   },
+  {
+    id: "P",
+    keyboard: "Screen",
+    url: "https://s3.amazonaws.com/freecodecamp/drums/Cev_H2.mp3",
+  },
+  {
+    id: "M",
+    keyboard: "Screen",
+    url: "https://s3.amazonaws.com/freecodecamp/drums/Cev_H2.mp3",
+  },
 ];
 export default drumAudio;
